@@ -9,14 +9,20 @@
 </head>
 
 <body>
-    <div class="navbar container">
-        <div class="row">
-            <div class="navbar-content">
-                <div class="navbar-logo column column-narrow">
+    <nav class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header col-md-3">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <img src="images/layout/tierpark.png" alt="Tierpark Hintertupfingen">
                 </div>
-                <nav class="navbar-nav column column-wide">
-                    <ul>
+                <div id="navbar" class="navbar-collapse">
+                    <ul class="col-md-9 nav navbar-nav">
                         <li class="active"><a href="">Start</a>
                         </li>
                         <li><a href="">Neuigkeiten</a>
@@ -28,28 +34,28 @@
                         <li><a href="">Kontakt</a>
                         </li>
                     </ul>
-                </nav>
+                </div>
             </div>
         </div>
-    </div>
+    </nav>
     <div class="content container">
         <section class="row">
-            <header class="col-mid-3">
+            <header class="col-md-3">
                 <h1>Tierpark</h1>
                 <h2>100 Jahre Begeisterung</h2>
             </header>
-            <div class="col-mid-9">
+            <div class="col-md-9">
                 <p>
                     Seit mehr als 100 Jahren begeistert die 19 Hektar große Parkanlage mit ihrer unvergleichlichen botanischen Vielfalt, denkmalgeschützten Panoramen, den Freigehegen und vielen kulturellen Bauten. Entdecken Sie mehr als 1.860 Tiere aller Kontinente, darunter eine der größten Elefantenherden Europas, und viele freilaufende Tiere.
                 </p>
             </div>
         </section>
         <section class="row">
-            <header class="col-mid-3">
+            <header class="col-md-3">
                 <h1>Aktivitäten</h1>
                 <h2>Spiel &amp; Spaß</h2>
             </header>
-            <div class="col-mid-9">
+            <div class="col-md-9">
                 <ul>
                     <li>Ponyreiten</li>
                     <li>Märchenbahn</li>
