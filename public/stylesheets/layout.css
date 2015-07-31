@@ -27,6 +27,10 @@ body > .content {
     min-height: 1000px;
 }
 
+.row {
+    margin-bottom: 20px !important;
+}
+
 @media(max-width: 992px) {
     .navbar .navbar-header, .navbar .navbar-nav {
         background-color: #f0c500;
