@@ -3,9 +3,7 @@ body {
     font-size: 14px;
     line-height: 1.6;
     color: #544000;
-    background-color: #999;
-    background-image: url("../images/layout/pattern.png");
-    background-repeat: repeat;
+    background-image: #999 url("../images/layout/pattern.png");
 }
 
 h1 {
@@ -17,7 +15,7 @@ h1 {
 }
 
 h2 {
-    color: #aaaaaa;
+    color: #aaa;
     font-size: inherit;
     font-weight: normal;
     margin: 0;
@@ -32,9 +30,8 @@ body > .content {
 @media(max-width: 992px) {
     .navbar .navbar-header, .navbar .navbar-nav {
         background-color: #f0c500;
-    }
-    .navbar-nav {
-        margin: -1px -15px;
+        margin: -1px;
+        padding-right: 0;
     }
     .navbar ul.navbar-nav > li a,
     .navbar ul.navbar-nav > li a:hover,
@@ -44,7 +41,6 @@ body > .content {
     }
     .navbar .navbar-collapse {
         padding: 0;
-        padding-left: 15px;
     }
 }
 
@@ -103,8 +99,10 @@ body > .content {
 
 .navbar .navbar-toggle {
     position: absolute;
-    top: -2px;
-    right: -8px;
+    top: 15px;
+    right: 10px;
+    width: 44px;
+    height: 44px;
     border-color: #fff8e6;
     background-color: #f0c500;
 }
